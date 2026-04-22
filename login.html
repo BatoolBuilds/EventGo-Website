@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EventGo - Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">EventGo</div>
+
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="nav-buttons">
+            <a href="login.html" class="login-btn">Login</a>
+        </div>
+    </nav>
+
+    <!-- Login Section -->
+    <section class="login-page">
+        <div class="login-container">
+
+            <div class="login-tabs">
+                <button class="tab-btn active-tab">Login</button>
+                <button class="tab-btn">Sign Up</button>
+            </div>
+
+            <div class="login-box">
+                <h2>Login to EventGo</h2>
+
+                <!-- Username -->
+                <div class="input-box">
+                    <svg class="input-icon" viewBox="0 0 24 24">
+                        <circle cx="12" cy="8" r="4"></circle>
+                        <path d="M4 20c0-4 4-6 8-6s8 2 8 6"></path>
+                    </svg>
+                    <input type="text" placeholder="Username">
+                </div>
+
+                <!-- Password -->
+                <div class="input-box">
+                    <svg class="input-icon" viewBox="0 0 24 24">
+                        <rect x="5" y="11" width="14" height="9" rx="2"></rect>
+                        <path d="M8 11V8a4 4 0 0 1 8 0v3"></path>
+                    </svg>
+                    <input type="password" placeholder="Password">
+                </div>
+
+                <div class="checkbox-area">
+                    <input type="checkbox" id="terms">
+                    <label for="terms">I agree to EventGo’s terms and privacy policy</label>
+                </div>
+
+                <button class="login-submit">Log In</button>
+
+                <a href="#" class="forgot-link">Forgot password?</a>
+
+                <div class="divider">
+                    <span>or continue with</span>
+                </div>
+
+                <div class="social-login">
+                    <button class="social-btn google-btn">
+                        <svg class="social-login-icon google-icon" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                            <path fill="#EA4335" d="M24 9.5c3.54 0 6.73 1.22 9.24 3.6l6.9-6.9C35.9 2.4 30.33 0 24 0 14.64 0 6.57 5.38 2.53 13.22l8.03 6.24C12.5 13.42 17.73 9.5 24 9.5z"/>
+                            <path fill="#4285F4" d="M46.5 24.5c0-1.64-.14-2.86-.44-4.13H24v8.04h12.96c-.26 2.02-1.66 5.07-4.78 7.12l7.76 6.02c4.66-4.3 6.56-10.64 6.56-17.05z"/>
+                            <path fill="#FBBC05" d="M10.56 28.54A14.53 14.53 0 0 1 9.5 24c0-1.58.28-3.1.76-4.54l-8.03-6.24A23.9 23.9 0 0 0 0 24c0 3.85.92 7.5 2.53 10.78l8.03-6.24z"/>
+                            <path fill="#34A853" d="M24 48c6.48 0 11.92-2.14 15.9-5.82l-7.76-6.02c-2.08 1.44-4.86 2.34-8.14 2.34-6.27 0-11.5-3.92-13.44-9.96l-8.03 6.24C6.57 42.62 14.64 48 24 48z"/>
+                        </svg>
+                        <span class="social-text">Google</span>
+                    </button>
+
+                    <button class="social-btn apple-btn">
+                        <svg class="social-login-icon apple-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M16.37 12.09c.02 2.2 1.93 2.93 1.95 2.94-.02.05-.3 1.03-.98 2.03-.59.87-1.2 1.74-2.16 1.76-.94.02-1.24-.56-2.31-.56-1.08 0-1.42.54-2.29.58-.92.03-1.62-.92-2.21-1.79-1.2-1.73-2.11-4.88-.88-7.02.61-1.06 1.7-1.73 2.88-1.75.9-.02 1.75.61 2.31.61.56 0 1.61-.76 2.71-.65.46.02 1.75.19 2.58 1.41-.07.04-1.54.9-1.52 2.44zM14.9 5.44c.49-.59.83-1.41.74-2.24-.71.03-1.56.47-2.07 1.06-.46.53-.86 1.37-.75 2.18.79.06 1.59-.4 2.08-1z"/>
+                        </svg>
+                        <span class="social-text">Apple</span>
+                    </button>
+                </div>
+
+                <p class="switch-text">
+                    Don't have an account?
+                    <a href="#">Go to Sign up</a>
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer login-footer">
+        <div class="login-footer-content">
+            <p>© 2026 EventGo</p>
+            <p>Contact: info@eventgo.com | Phone: +1 (555) 123-4567</p>
+
+            <div class="social-icons">
+                <a href="#" aria-label="X">
+                    <svg viewBox="0 0 24 24" class="social-svg" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M18.9 2H22l-6.77 7.74L23 22h-6.1l-4.78-6.24L6.7 22H3.6l7.24-8.27L1 2h6.25l4.32 5.7L18.9 2z"/>
+                    </svg>
+                </a>
+
+                <a href="#" aria-label="Facebook">
+                    <svg viewBox="0 0 320 512" class="social-svg" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z"/>
+                    </svg>
+				
+                </a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
